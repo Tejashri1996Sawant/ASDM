@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+function compare(a,b){
+   return a-b;
+}
+
+
+
+</script>
+</head>
+<body >
+<script>
+ var arr=new Array(12,13,5,200,'xxxx','bbb','ccc','yyy','aaaa');
+ var numarr=new Array(12,13,5,200);
+ arr.description="this is info of rooms";
+ document.write("join array: "+ arr.join(":")+"<br><br>");
+ document.write("reverse array:" + arr.reverse()+"<br><br>");
+ document.write("sort array:" + arr.sort()+"<br><br>");
+ document.write("splice array:" + arr.splice(3,4)+"<br><br>");
+ document.write("Description:" + arr.description+"<br><br>");
+ document.write("sort array:" + numarr.sort(compare)+"<br><br>");
+</script>
+
+</body>
+
+</html>
